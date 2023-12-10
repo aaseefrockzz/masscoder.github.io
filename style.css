@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+div.first{
+    text-align: center;
+    word-spacing: 3px;
+    
+}
+.one{
+    color: rgb(86, 197, 21);
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+    font-family: 'Young Serif', serif;
+}
+a.four{
+    color: red;
+}
+a.four:hover{
+    font-size: 25px;
+    color: aqua;
+    background-color: blueviolet;
+}
+a.five{
+    color: rgb(73, 7, 149);
+}
+a.five:hover{
+    
+    background-color: rgb(210, 21, 169);
+    font-size: 25px;
+}
+a.seven{
+    color: darkgoldenrod;
+
+}
+a.seven:hover{
+    color: yellow;
+    background-color: darkmagenta;
+    font-size: 25px;
+}
+
+ul{
+    text-align: left;
+    border: 2px solid white;
+    padding: 50px;
+    margin: 10px;
+    
+}
+marquee{
+    border-color: rgb(11, 235, 235);
+    border-width: 5 px;
+    border-style: solid;
+    margin-top: 30px;
+    color: rgb(13, 10, 225);
+    font-size: 18px;
+    display: block;
+    font-style: italic;
+    font-size: 19px;
+}
+marquee:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px #555;
+    border-radius: 3px;
+}
+div.a.img:hover{
+    height: 5%;
+    width: 5%;
+
+}
+.all{
+    color: rgb(187, 231, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+.videos{
+    border: 2px blue solid;
+    width: 75%;
+
+}
+.videos:hover{
+    box-shadow: 2px 2px burlywood;
+}
+.service{
+    text-align: center;
+}
+.ser-h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    text-transform: uppercase;
+}
+.service-info{
+    display: flex;
+    flex-direction: row;
+}
+.service-card{
+    border: 3px wheat solid;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.service:hover{
+    cursor: pointer;
+}
+.service-card:hover{
+    box-shadow: 2px 2px #e3dbdb ;
+}
+.about{
+    text-align: center;
+}
+.about-h1{
+    color: orange;
+}
+.about-info{
+    display: flex;
+    flex-direction: row;
+}
+.about-card{
+    border: 2px black solid;
+    margin: 20px;
+    width: 30%;
+}
+.about-card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+    transform: rotateX(10deg);
+}
+.icon{
+    text-align: right;
+}
+.contant {
+    float: right;
+    border: 1px solid #a10c0c;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+}
+
+.contant-h1 {
+    text-align: center;
+}
+.contant:hover{
+    transform: scale(1.1);
+}
+
